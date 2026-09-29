@@ -1,0 +1,64 @@
+<footer class="w-full bg-[#f3f4ef] mt-0">
+<div class="max-w-[1240px] mx-auto px-4 md:px-12 pt-12 md:pt-16 pb-8">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-8 pb-10">
+<div class="lg:col-span-4 flex flex-col items-start">
+<div class="flex items-center gap-2 mb-4"><span class="font-bold text-lg text-[#042217]">SAFA TOUR</span></div>
+<p class="text-sm text-[#424844] mb-4 leading-relaxed">Biro perjalanan umrah terpercaya yang mendampingi langkah ibadah Anda menuju Tanah Suci dengan kenyamanan, kejelasan, dan ketenangan hati.</p>
+<div class="inline-flex items-center gap-2 px-3 py-1.5 bg-[#edeee9] rounded text-xs"><span class="material-symbols-outlined text-[16px] text-[#775a19]">verified</span><span>Izin Resmi PPIU Kemenag RI No. 128/2021</span></div>
+</div>
+<div class="lg:col-span-2 flex flex-col">
+<h4 class="font-bold text-[#042217] mb-4">Navigasi</h4>
+<ul class="flex flex-col gap-2 text-sm">
+<li><a class="text-[#424844] hover:text-[#042217]" href="__BASE__index.html">Beranda</a></li>
+<li><a class="text-[#424844] hover:text-[#042217]" href="__BASE__paket.html">Paket Umrah</a></li>
+<li><a class="text-[#424844] hover:text-[#042217]" href="__BASE__detail-paket.html">Detail Paket</a></li>
+<li><a class="text-[#424844] hover:text-[#042217]" href="__BASE__artikel.html">Artikel &amp; Panduan</a></li>
+<li><a class="text-[#424844] hover:text-[#042217]" href="__BASE__detail-artikel.html">Detail Artikel</a></li>
+<li><a class="text-[#424844] hover:text-[#042217]" href="__BASE__tentang.html">Tentang Kami</a></li>
+<li><a class="text-[#424844] hover:text-[#042217]" href="__BASE__kontak.html#faq">FAQ</a></li>
+<li><a class="text-[#424844] hover:text-[#042217]" href="__BASE__kontak.html">Kontak</a></li>
+</ul>
+</div>
+<div class="lg:col-span-3 flex flex-col">
+<h4 class="font-bold text-[#042217] mb-4">Paket Populer</h4>
+<ul class="flex flex-col gap-2 text-sm">
+<li><a class="text-[#424844] hover:text-[#042217]" href="__BASE__detail-paket.html">Umrah Nyaman 12 Hari — Rp 34,9 Jt</a></li>
+<li><a class="text-[#424844] hover:text-[#042217]" href="__BASE__paket.html">Umrah Hemat 9 Hari — Rp 29,9 Jt</a></li>
+<li><a class="text-[#424844] hover:text-[#042217]" href="__BASE__paket.html">Umrah Premium 12 Hari — Rp 42,9 Jt</a></li>
+<li><a class="text-[#424844] hover:text-[#042217]" href="__BASE__artikel.html">Panduan Manasik Gratis (PDF)</a></li>
+</ul>
+</div>
+<div class="lg:col-span-3 flex flex-col">
+<h4 class="font-bold text-[#042217] mb-4">Hubungi Kami</h4>
+<ul class="flex flex-col gap-2 text-sm text-[#424844]">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-[18px]">location_on</span>Jl. TB Simatupang No.45, Jakarta Selatan</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-[18px]">call</span>(021) 7890-1234</li>
+<li><a class="flex items-center gap-2 hover:text-[#042217]" href="https://wa.me/6281234567890" target="_blank" rel="noopener"><span class="material-symbols-outlined text-[18px]">chat</span>+62 812-3456-7890</a></li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-[18px]">schedule</span>Senin–Sabtu 08.30–17.00 WIB</li>
+</ul>
+<a href="https://wa.me/6281234567890?text=Assalamu%27alaikum%20Safa%20Tour" target="_blank" rel="noopener" class="mt-4 inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded bg-[#1b382b] text-white text-sm font-semibold hover:bg-[#042217]"><span class="material-symbols-outlined text-[18px]">chat</span>Konsultasi via WhatsApp</a>
+</div>
+</div>
+<div class="pt-6 border-t border-[#c2c8c2] flex flex-col md:flex-row items-center justify-between gap-2 text-xs text-[#727974]">
+<span>© 2026 Safa Tour Indonesia — PT Safa Bina Insani Tour &amp; Travel. Bersahaja nan Berkelas.</span>
+<span>PPIU No.128/2021 • Terakreditasi A Kemenag</span>
+</div>
+</div>
+</footer>
+<script>
+(function(){
+  var btn=document.getElementById('hamburger-btn');
+  var drawer=document.getElementById('mobile-drawer');
+  var backdrop=document.getElementById('mobile-backdrop');
+  var closeBtn=document.getElementById('drawer-close');
+  function open(){ if(drawer) drawer.classList.add('open'); if(backdrop) backdrop.classList.add('open'); document.body.style.overflow='hidden'; }
+  function close(){ if(drawer) drawer.classList.remove('open'); if(backdrop) backdrop.classList.remove('open'); document.body.style.overflow=''; }
+  if(btn) btn.addEventListener('click', open);
+  if(closeBtn) closeBtn.addEventListener('click', close);
+  if(backdrop) backdrop.addEventListener('click', close);
+  var page=document.body.getAttribute('data-page');
+  if(page){
+    document.querySelectorAll('[data-nav="'+page+'"]').forEach(function(el){ el.classList.add('active'); });
+  }
+})();
+</script>

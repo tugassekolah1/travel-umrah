@@ -1,0 +1,64 @@
+/* Safa Tour - global responsive fixes */
+html { scroll-behavior: smooth; }
+body { overflow-x: hidden; }
+img { max-width: 100%; }
+table { width: 100%; display: block; overflow-x: auto; }
+iframe { max-width: 100%; }
+
+/* Hero text fluid */
+.font-display-hero, .font-headline-lg {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+/* Mobile drawer */
+#mobile-drawer { transition: transform .3s ease, opacity .3s ease; }
+#mobile-drawer.open { transform: translateX(0) !important; }
+#mobile-backdrop.open { opacity: 1 !important; pointer-events: auto !important; }
+
+/* Active nav link */
+.nav-link.active { color: #042217 !important; font-weight: 700; }
+.nav-link.active::after { content:""; display:block; height:2px; background:#775a19; margin-top:2px; border-radius:2px; }
+
+/* ============ MODE RINGKAS KHUSUS HP (<=640px) ============
+   Token spacing desktop (space-3xl = 6rem dsb) terlalu lega di HP,
+   jadi dikompres di sini agar halaman lebih ramping dan nyaman. */
+@media (max-width: 640px) {
+  .max-w-\[1240px\] { padding-left: 1rem !important; padding-right: 1rem !important; }
+  section[class*="px-6"] { padding-left: 1rem !important; padding-right: 1rem !important; }
+
+  /* Judul lebih kecil */
+  h1 { font-size: clamp(1.6rem, 6.5vw, 2.1rem) !important; line-height: 1.18 !important; }
+  h2 { font-size: clamp(1.3rem, 5.2vw, 1.7rem) !important; line-height: 1.25 !important; }
+  .font-numeral-stat { font-size: 32px !important; line-height: 38px !important; }
+
+  /* Hero beranda: 640px -> 520px */
+  .h-\[640px\] { height: 520px !important; }
+
+  /* Ritme vertikal section dikompres */
+  .py-space-3xl { padding-top: 2.75rem !important; padding-bottom: 2.75rem !important; }
+  .pt-space-3xl { padding-top: 2.75rem !important; }
+  .pb-space-3xl { padding-bottom: 2.75rem !important; }
+  .py-space-2xl { padding-top: 2.25rem !important; padding-bottom: 2.25rem !important; }
+  .pt-space-2xl { padding-top: 2.25rem !important; }
+  .pb-space-2xl { padding-bottom: 2.25rem !important; }
+  .py-space-xl { padding-top: 2rem !important; padding-bottom: 2rem !important; }
+  .py-16 { padding-top: 2.5rem !important; padding-bottom: 2.5rem !important; }
+  .py-12 { padding-top: 2rem !important; padding-bottom: 2rem !important; }
+  .pt-16 { padding-top: 2.5rem !important; }
+  .pb-24 { padding-bottom: 3rem !important; }
+  .mb-space-2xl { margin-bottom: 2rem !important; }
+  .mb-space-xl { margin-bottom: 1.5rem !important; }
+
+  /* Padding kartu & container dikompres */
+  .p-space-xl { padding: 1.25rem !important; }
+  .p-space-lg { padding: 1rem !important; }
+  .p-8 { padding: 1.25rem !important; }
+  .p-6 { padding: 1rem !important; }
+  .px-6 { padding-left: 1rem !important; padding-right: 1rem !important; }
+
+  /* Gap grid lebih rapat */
+  .gap-gutter { gap: 1rem !important; }
+  .gap-8 { gap: 1.25rem !important; }
+  .gap-6 { gap: 1rem !important; }
+}

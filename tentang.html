@@ -1,0 +1,557 @@
+﻿<!DOCTYPE html>
+
+<html lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"tertiary-fixed-dim":"#3de273","on-primary":"#ffffff","secondary-fixed":"#ffdea5","surface-dim":"#d9dbd6","surface-tint":"#476556","inverse-surface":"#2e312e","primary-container":"#1b382b","surface-bright":"#f8faf5","on-primary-container":"#82a291","on-error-container":"#93000a","on-secondary-fixed":"#261900","on-background":"#191c19","inverse-on-surface":"#f0f1ec","tertiary-container":"#003b16","surface-variant":"#e1e3de","on-secondary-fixed-variant":"#5d4201","error-container":"#ffdad6","surface-container-lowest":"#ffffff","secondary":"#775a19","tertiary":"#00230a","outline-variant":"#c2c8c2","outline":"#727974","on-tertiary-container":"#00b251","error":"#ba1a1a","on-tertiary-fixed":"#002109","secondary-fixed-dim":"#e9c176","on-surface":"#191c19","primary":"#042217","primary-fixed":"#c9ead7","secondary-container":"#fed488","surface-container":"#edeee9","on-primary-fixed":"#022015","on-tertiary-fixed-variant":"#005322","inverse-primary":"#adcebc","tertiary-fixed":"#66ff8e","on-surface-variant":"#424844","on-error":"#ffffff","on-tertiary":"#ffffff","primary-fixed-dim":"#adcebc","on-secondary":"#ffffff","background":"#f8faf5","surface-container-low":"#f3f4ef","surface-container-highest":"#e1e3de","on-primary-fixed-variant":"#304d3f","on-secondary-container":"#785a1a","surface":"#f8faf5","surface-container-high":"#e7e9e4"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"margin":"3rem","space-lg":"1.5rem","space-2xl":"4rem","space-md":"1rem","margin-tablet":"2rem","margin-mobile":"1.25rem","space-xs":"0.25rem","gutter":"1.5rem","space-sm":"0.5rem","space-xl":"2.5rem","space-3xl":"6rem","gutter-mobile":"1rem"},"fontFamily":{"body-sm":["Plus Jakarta Sans"],"title-md":["Plus Jakarta Sans"],"headline-lg-mobile":["Playfair Display"],"display-hero":["Playfair Display"],"headline-lg":["Playfair Display"],"label-sm":["Plus Jakarta Sans"],"numeral-stat":["Playfair Display"],"title-lg":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"headline-md":["Playfair Display"],"display-hero-mobile":["Playfair Display"],"headline-sm":["Playfair Display"],"label-md":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"]},"fontSize":{"body-sm":["14px",{"lineHeight":"22px","fontWeight":"400"}],"title-md":["17px",{"lineHeight":"24px","fontWeight":"600"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","letterSpacing":"-0.01em","fontWeight":"600"}],"display-hero":["56px",{"lineHeight":"68px","letterSpacing":"-0.02em","fontWeight":"600"}],"headline-lg":["40px",{"lineHeight":"50px","letterSpacing":"-0.015em","fontWeight":"600"}],"label-sm":["11px",{"lineHeight":"16px","letterSpacing":"0.06em","fontWeight":"600"}],"numeral-stat":["48px",{"lineHeight":"54px","fontWeight":"500"}],"title-lg":["19px",{"lineHeight":"26px","fontWeight":"600"}],"body-md":["16px",{"lineHeight":"26px","fontWeight":"400"}],"headline-md":["30px",{"lineHeight":"38px","fontWeight":"500"}],"display-hero-mobile":["36px",{"lineHeight":"44px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-sm":["22px",{"lineHeight":"30px","fontWeight":"500"}],"label-md":["13px",{"lineHeight":"18px","letterSpacing":"0.04em","fontWeight":"600"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}]}}}};</script><link rel="stylesheet" href="assets/css/site.css"/><title>Tentang Kami Safa Tour</title></head><body data-page="tentang" class="bg-background font-body-md text-on-surface antialiased selection:bg-secondary-fixed selection:text-on-secondary-fixed">
+<header class="sticky top-0 z-50 bg-[#f8faf5]/95 backdrop-blur-md shadow-sm">
+<div class="max-w-[1240px] mx-auto px-4 md:px-12 h-16 md:h-20 flex items-center justify-between gap-3">
+<div class="flex items-center gap-1 shrink-0">
+<button id="hamburger-btn" aria-label="Buka Menu" class="md:hidden w-11 h-11 flex items-center justify-center rounded text-[#042217] -ml-2"><span class="material-symbols-outlined text-[26px]">menu</span></button>
+<a href="index.html" class="flex items-center gap-2">
+<img alt="Logo SAFA TOUR" class="h-8 md:h-9 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UpWhA5grNzk_gnz2phdV4KaFB19zdcfMS9Lw9ftKpWvxAqh7XcsFY4I2ou6QUt9VZkzKAIf2Zm1PY6yL9TlA7NZxF0crqrtHIb-6GPv0tBidseKNWRBZ054QzArD4jFznjOYrEMP0As_vpHaAJIeNk6xYy9m65rxDH_oVZNuRixyBKWnWGp5QVcpC7yDq6QHLsz61h3OYnHl6iTBWkqa1wzbZg_MMf92pZ6A7BaDpDQv7KpuBJltHFeL80"/>
+<span class="font-bold text-[#042217] tracking-wide text-base md:text-lg">SAFA TOUR</span>
+<span class="hidden lg:inline-flex items-center gap-1 ml-2 px-2 py-0.5 rounded bg-[#edeee9] text-[11px] text-[#424844]"><span class="material-symbols-outlined text-[14px] text-[#775a19]">verified</span>PPIU No.128/2021</span>
+</a>
+</div>
+<nav class="hidden md:flex items-center gap-6 text-[15px]">
+<a data-nav="beranda" class="nav-link text-[#424844] hover:text-[#042217]" href="index.html">Beranda</a>
+<a data-nav="paket" class="nav-link text-[#424844] hover:text-[#042217]" href="paket.html">Paket Umrah</a>
+<a data-nav="artikel" class="nav-link text-[#424844] hover:text-[#042217]" href="artikel.html">Artikel &amp; Panduan</a>
+<a data-nav="tentang" class="nav-link text-[#424844] hover:text-[#042217]" href="tentang.html">Tentang Kami</a>
+<a data-nav="faq" class="nav-link text-[#424844] hover:text-[#042217]" href="kontak.html#faq">FAQ</a>
+<a data-nav="kontak" class="nav-link text-[#424844] hover:text-[#042217]" href="kontak.html">Kontak</a>
+</nav>
+<div class="flex items-center gap-2">
+<a href="https://wa.me/6281234567890?text=Assalamu%27alaikum%20Safa%20Tour%2C%20saya%20ingin%20konsultasi%20paket%20umrah" target="_blank" rel="noopener" class="hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded bg-[#1b382b] text-white text-sm font-semibold hover:bg-[#042217]"><span class="material-symbols-outlined text-[18px]">chat</span>Konsultasi Gratis</a>
+</div>
+</div>
+</header>
+<div id="mobile-backdrop" class="fixed inset-0 z-[60] bg-[#042217]/40 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity"></div>
+<aside id="mobile-drawer" class="fixed top-0 left-0 bottom-0 z-[61] w-[85%] max-w-sm bg-white shadow-xl -translate-x-full flex flex-col md:hidden">
+<div class="h-16 px-5 flex items-center justify-between shrink-0">
+<div class="flex items-center gap-2"><span class="font-bold text-[#042217]">Safa Tour</span></div>
+<button id="drawer-close" aria-label="Tutup Menu" class="w-11 h-11 flex items-center justify-center"><span class="material-symbols-outlined">close</span></button>
+</div>
+<div class="mx-5 mb-3 px-4 py-3 rounded-lg bg-[#f3f4ef] flex items-center gap-2"><span class="material-symbols-outlined text-[#775a19]">verified</span><div><div class="text-[11px] uppercase text-gray-500">Izin Resmi Kemenag</div><div class="text-sm font-bold text-[#042217]">PPIU No.128/2021</div></div></div>
+<nav class="flex-1 overflow-y-auto px-5 py-2 flex flex-col gap-1 text-[15px]">
+<a data-nav="beranda" class="flex items-center gap-3 h-12 px-3 rounded-lg hover:bg-[#edeee9]" href="index.html"><span class="material-symbols-outlined">home</span>Beranda</a>
+<a data-nav="paket" class="flex items-center gap-3 h-12 px-3 rounded-lg hover:bg-[#edeee9]" href="paket.html"><span class="material-symbols-outlined">mosque</span>Paket Umrah</a>
+<a data-nav="detail-paket" class="flex items-center gap-3 h-12 px-3 rounded-lg hover:bg-[#edeee9]" href="detail-paket.html"><span class="material-symbols-outlined">description</span>Detail Paket</a>
+<a data-nav="artikel" class="flex items-center gap-3 h-12 px-3 rounded-lg hover:bg-[#edeee9]" href="artikel.html"><span class="material-symbols-outlined">menu_book</span>Artikel &amp; Panduan</a>
+<a data-nav="tentang" class="flex items-center gap-3 h-12 px-3 rounded-lg hover:bg-[#edeee9]" href="tentang.html"><span class="material-symbols-outlined">groups</span>Tentang Kami</a>
+<a data-nav="faq" class="flex items-center gap-3 h-12 px-3 rounded-lg hover:bg-[#edeee9]" href="kontak.html#faq"><span class="material-symbols-outlined">help</span>FAQ</a>
+<a data-nav="kontak" class="flex items-center gap-3 h-12 px-3 rounded-lg hover:bg-[#edeee9]" href="kontak.html"><span class="material-symbols-outlined">support_agent</span>Kontak &amp; Konsultasi</a>
+</nav>
+<div class="p-5 shrink-0"><a href="https://wa.me/6281234567890" target="_blank" rel="noopener" class="w-full h-12 flex items-center justify-center gap-2 rounded-lg bg-[#1b382b] text-white font-semibold"><span class="material-symbols-outlined">chat</span>Chat WhatsApp</a></div>
+</aside>
+<main class="w-full pt-20 bg-background min-h-screen"><div class="flex flex-col w-full">
+<!-- Hero Section with Soft Editorial Ambience -->
+<section class="relative w-full pt-16 md:pt-20 pb-24 md:pb-32 bg-primary-container overflow-hidden text-on-primary">
+<!-- Atmospheric Visual Layer -->
+<div class="absolute inset-0 opacity-25 mix-blend-luminosity pointer-events-none" data-alt="Grand panoramic perspective of pilgrims dressed in white ihram walking with serene reverence in the marble courtyard of Masjid al-Haram at golden sunrise. Golden architecture and soft morning light fill the frame with an authentic documentary aesthetic, deep emerald shadows, and warm sandstone tones." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBk2q60OfBvtow906CE8pIj28f4S8vmHTkWf7jKREeVvCguYdKl76Z8tJHKauC2ZC2ohbc0row-JwO1fEQMvCw7DZrQH2BQx596GloofhqmNyHBcO8fOnZw2nXZsblZAQpojf8lneywKQbWWpyxlB2u4chJUI0k3gTYggmQGAD5wg5Sur_vUP8qI29uUs-5_Rqy9cTM89B85d_XJGJdwMl1VM58kfYtiMNSrHcVkU1dkzo8jo0N0jKCpw')"></div>
+<div class="absolute inset-0 bg-gradient-to-b from-primary via-primary-container/95 to-primary-container"></div>
+<div class="relative max-w-[1240px] mx-auto px-6 md:px-12">
+<!-- Breadcrumb & Badge -->
+<div class="flex items-center gap-3 mb-6">
+<span class="inline-flex items-center gap-2 px-3 py-1 bg-surface-container-highest/10 backdrop-blur-sm rounded font-label-sm text-label-sm text-secondary-fixed tracking-wider uppercase">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary-fixed"></span>
+          Tentang Kami · Khidmah 10+ Tahun
+        </span>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-end">
+<div class="lg:col-span-8 flex flex-col">
+<h1 class="font-display-hero text-display-hero text-on-primary font-serif tracking-tight leading-tight mb-6">
+            Melayani Tamu Allah dengan <span class="italic font-normal text-secondary-fixed">Amanah</span> dan Kelembutan Hati
+          </h1>
+<p class="font-body-lg text-body-lg text-on-primary-container max-w-2xl leading-relaxed">
+            Perjalanan SAFA TOUR mendampingi ribuan keluarga muslim Indonesia menunaikan ibadah umrah dengan tenang, sah sesuai tuntunan sunnah, dan penuh kehangatan persaudaraan.
+          </p>
+</div>
+<div class="lg:col-span-4 flex flex-col lg:items-end justify-end">
+<div class="p-6 bg-surface-container-highest/10 backdrop-blur-md rounded-xl max-w-sm w-full">
+<div class="flex items-center gap-4 mb-3">
+<span class="font-numeral-stat text-numeral-stat text-secondary-fixed font-serif leading-none">12.400+</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-primary/90 font-medium">Jamaah telah kembali ke tanah air dengan predikat umrah yang mabrur dan hati yang tenang.</p>
+<div class="mt-4 pt-4 flex items-center justify-between text-on-primary-container font-label-sm text-label-sm">
+<span>Tingkat Kepuasan 99.4%</span>
+<span class="inline-flex items-center gap-1 text-secondary-fixed">
+<span class="material-symbols-outlined text-[16px]">stars</span> Terpercaya
+              </span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Editorial Philosophy Section -->
+<section class="w-full py-space-3xl bg-background">
+<div class="max-w-[1240px] mx-auto px-6 md:px-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter lg:gap-16 items-start">
+<!-- Left Column: Meaning Behind SAFA -->
+<div class="lg:col-span-5 flex flex-col">
+<div class="inline-flex items-center gap-2 mb-4">
+<span class="w-8 h-[1px] bg-secondary"></span>
+<span class="font-label-md text-label-md text-secondary uppercase tracking-widest">Filosofi &amp; Jejak Langkah</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-primary font-serif mb-6 leading-tight">
+            Dari Bukit Shafa, Kami Meneladani Kesungguhan Ikhtiar
+          </h2>
+<div class="space-y-4 font-body-md text-body-md text-on-surface-variant leading-relaxed">
+<p>
+              Nama <strong class="text-primary font-semibold">SAFA TOUR</strong> terilhami dari bukit Shafa di Makkah Al-Mukarramah—monumen keikhlasan, keteguhan hati, dan ikhtiar tanpa henti ibunda Siti Hajar tatkala mencari air untuk putra tercintanya, Ismail 'alaihissalam.
+            </p>
+<p>
+              Didirikan lebih dari sepuluh tahun silam, kami memulai langkah dengan tekad sederhana namun mendalam: memastikan setiap jamaah merasa didampingi layaknya keluarga sendiri, bukan sekadar urutan angka di lembar manifes penerbangan.
+            </p>
+<p>
+              Bagi kami, melayani tamu-tamu Allah (Dhuyufurrahman) adalah amanah kehormatan yang tidak boleh dikompromikan oleh kelalaian logistik atau kepentingan komersial semata.
+            </p>
+</div>
+<div class="mt-8 p-6 bg-surface-container-low rounded-xl">
+<blockquote class="font-headline-sm text-headline-sm italic text-primary font-serif leading-snug">
+              “Khidmah kepada jamaah bukan sekadar pekerjaan, melainkan jalan ibadah untuk menjemput ridha Ilahi.”
+            </blockquote>
+<p class="mt-3 font-label-md text-label-md text-secondary font-medium tracking-wide">
+              — Dewan Pengawas Syariah SAFA TOUR
+            </p>
+</div>
+</div>
+<!-- Right Column: Visual Narrative & Pillars -->
+<div class="lg:col-span-7 flex flex-col gap-8">
+<div class="relative w-full h-80 rounded-xl overflow-hidden shadow-sm">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Intimate documentary photograph of an Indonesian family - elderly mother, father, and daughter smiling gently in white ihram clothing while holding prayer beads near the sunlit portico of the Prophet's Mosque in Madinah, soft warm ambient lighting with natural film grain." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuANYMMLc8BM8UvErvwPJmQODaWwrl5A5gwsY5XJgQ31Hw5RIIbMAjAw73gIK2AXIXHAiyd98VIvFHdqI3RfKjcwAcrTpk7mpPkRKZdj9nYJkQL6_OYCXbLTn3ZS71q96-Uw0WBhXJLjP-sAkejtOdZAZrZNRvC-ghqgf2d9PNhU4zkjCxPMMhE_ThD_HnmcvvdlmerQTth5Qy4C1R0p7sl0ZZu_TV_guW-pi2WXT6_1aELF9_9sFXJfbg')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent flex items-end p-6">
+<span class="font-label-md text-label-md text-on-primary/90 tracking-wide">Pendampingan penuh empati bagi jamaah sepuh dan keluarga</span>
+</div>
+</div>
+<!-- 3 Core Pillars Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+<!-- Pillar 1 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="w-10 h-10 rounded bg-primary-container/10 flex items-center justify-center text-primary mb-4">
+<span class="material-symbols-outlined text-[24px]">verified_user</span>
+</div>
+<h3 class="font-title-md text-title-md text-primary mb-2">Kepastian &amp; Transparansi</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Jadwal tiket fixed, kepastian nama hotel bintang 5/4 di pelataran, tanpa biaya siluman tersembunyi.</p>
+</div>
+<span class="mt-4 text-xs font-label-sm text-outline tracking-wider uppercase font-semibold">01 · Legal &amp; Jelas</span>
+</div>
+<!-- Pillar 2 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="w-10 h-10 rounded bg-secondary-container/20 flex items-center justify-center text-secondary mb-4">
+<span class="material-symbols-outlined text-[24px]">menu_book</span>
+</div>
+<h3 class="font-title-md text-title-md text-primary mb-2">Bimbingan Sesuai Sunnah</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Manasik terstruktur dibimbing asatidz bersanad keilmuan yang mendampingi langsung setiap rukun.</p>
+</div>
+<span class="mt-4 text-xs font-label-sm text-outline tracking-wider uppercase font-semibold">02 · Fiqih Shahih</span>
+</div>
+<!-- Pillar 3 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="w-10 h-10 rounded bg-primary-container/10 flex items-center justify-center text-primary mb-4">
+<span class="material-symbols-outlined text-[24px]">favorite</span>
+</div>
+<h3 class="font-title-md text-title-md text-primary mb-2">Kenyamanan Fisik &amp; Ruh</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Ritme ibadah terukur, konsumsi menu nusantara higienis, dan perhatian khusus bagi stamina lansia.</p>
+</div>
+<span class="mt-4 text-xs font-label-sm text-outline tracking-wider uppercase font-semibold">03 · Prioritas Jamaah</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Legal Trust Card Section -->
+<section class="w-full py-space-2xl bg-surface-container-low">
+<div class="max-w-[1240px] mx-auto px-6 md:px-12">
+<div class="bg-surface-container-lowest rounded-xl p-8 md:p-12 shadow-sm relative overflow-hidden">
+<!-- Subtle decorative emblem background -->
+<div class="absolute -right-12 -bottom-12 opacity-5 pointer-events-none text-primary">
+<span class="material-symbols-outlined text-[260px]">verified</span>
+</div>
+<div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+<div class="lg:col-span-8 flex flex-col">
+<div class="inline-flex items-center gap-2 text-secondary mb-3">
+<span class="material-symbols-outlined text-[20px]">gavel</span>
+<span class="font-label-md text-label-md tracking-wider uppercase">Legalitas Teruji &amp; Terdaftar Resmi</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-primary font-serif mb-4 leading-snug">
+              Izin Operasional Penyelenggara Perjalanan Ibadah Umrah (PPIU) Kemenag RI
+            </h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl leading-relaxed mb-6">
+              Keamanan dan kepastian keberangkatan Anda dilindungi hukum negara. Kami beroperasi secara resmi di bawah pengawasan Direktorat Jenderal Penyelenggaraan Haji dan Umrah Kementerian Agama Republik Indonesia dengan akreditasi A.
+            </p>
+<div class="flex flex-wrap items-center gap-6">
+<div class="flex items-center gap-3">
+<span class="w-3 h-3 rounded-full bg-secondary"></span>
+<span class="font-title-md text-title-md text-primary">SK Kemenag No. 128 / 2021</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="w-3 h-3 rounded-full bg-secondary"></span>
+<span class="font-title-md text-title-md text-primary">Terakreditasi A (Sangat Baik)</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="w-3 h-3 rounded-full bg-secondary"></span>
+<span class="font-title-md text-title-md text-primary">Asuransi Syariah Jamaah</span>
+</div>
+</div>
+</div>
+<div class="lg:col-span-4 flex flex-col gap-3">
+<div class="p-4 rounded-lg bg-surface-container flex items-center justify-between">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-[24px]">apartment</span>
+<div>
+<div class="font-label-md text-label-md text-primary">HIMPUH / AMPHURI</div>
+<div class="font-body-sm text-body-sm text-outline">Anggota Resmi Terdaftar</div>
+</div>
+</div>
+<span class="material-symbols-outlined text-secondary text-[20px]">check_circle</span>
+</div>
+<div class="p-4 rounded-lg bg-surface-container flex items-center justify-between">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-[24px]">flight_takeoff</span>
+<div>
+<div class="font-label-md text-label-md text-primary">IATA Certified Agent</div>
+<div class="font-body-sm text-body-sm text-outline">Tiketing Maskapai Direct</div>
+</div>
+</div>
+<span class="material-symbols-outlined text-secondary text-[20px]">check_circle</span>
+</div>
+<div class="p-4 rounded-lg bg-surface-container flex items-center justify-between">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-[24px]">shield</span>
+<div>
+<div class="font-label-md text-label-md text-primary">5 Pasti Umrah Kemenag</div>
+<div class="font-body-sm text-body-sm text-outline">Kepatuhan Penuh Regulasi</div>
+</div>
+</div>
+<span class="material-symbols-outlined text-secondary text-[20px]">check_circle</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Pembimbing Ibadah (Asatidz & Muthawwif) -->
+<section class="w-full py-space-3xl bg-background">
+<div class="max-w-[1240px] mx-auto px-6 md:px-12">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+<div>
+<span class="font-label-md text-label-md text-secondary tracking-widest uppercase block mb-2">Keteladanan &amp; Keilmuan</span>
+<h2 class="font-headline-lg text-headline-lg text-primary font-serif">Dewan Pembimbing &amp; Muthawwif</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          Para asatidz yang santun, sabar, dan memiliki pemahaman mendalam mengenai manasik serta sejarah peradaban Islam di Tanah Suci.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Card 1 -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col group transition-all duration-300 hover:shadow-md">
+<div class="relative w-full aspect-[4/5] overflow-hidden bg-surface-container">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="Portrait of an esteemed Indonesian male Islamic scholar in his late thirties wearing a clean white thobe and neat traditional turban scarf, gentle friendly expression with warm eyes, shot in clean natural soft studio lighting against an earthy taupe background." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB7js2dyXJu_h65cyISZZaBYK3fqSrO1HYf35vpMUhi-TgALYNSlnE8Cr-e73E7MWmHxL2XyzrPcgqo0W5X6d2yoD2eUSdAkQjZq4McDrCEvoJ6VpVC6P9jyQXaZ2x-J6BqaYdGTrB2vklyDPn4hgxN90GTmF8qkXrAKqigGiJlCY-F4EJCFv11zmSIbyfoRigOVBq4xnxqqquPRW_GVSuEmIUfzwNgJxaWfnecihkC4cZDnBuMGpqMfQ')"></div>
+<div class="absolute top-4 left-4 bg-primary text-on-primary px-3 py-1 rounded text-label-sm font-label-sm tracking-wide">
+              Pembimbing Utama
+            </div>
+</div>
+<div class="p-6 flex flex-col flex-1 justify-between">
+<div>
+<h3 class="font-title-lg text-title-lg text-primary mb-1">Ustadz Ahmad Baihaqi, Lc., M.A.</h3>
+<p class="font-label-md text-label-md text-secondary mb-4">Alumnus Universitas Islam Madinah (KSA)</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Telah lebih dari 12 tahun mendedikasikan diri membimbing manasik umrah, muthawwif Makkah-Madinah, serta mengampu kajian sirah nabawiyah di tanah air.
+              </p>
+</div>
+<div class="mt-6 pt-4 flex items-center gap-2 text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[18px] text-primary">verified</span>
+<span>Sanad Fiqih Manasik &amp; Hadits</span>
+</div>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col group transition-all duration-300 hover:shadow-md">
+<div class="relative w-full aspect-[4/5] overflow-hidden bg-surface-container">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="Portrait of a dignified Indonesian senior Islamic professor and scholar in his fifties wearing formal dark brown batik with modest black peci cap, serene scholarly demeanor, warm ambient rim light on a tasteful neutral library setting." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD5bQzNTuvK-Y9rmYExOLD17AxVUjVpCPaC3D2k-FP5fyf4djCAXLN-31Fb-JJ4RlTUS07ir9OZiypD5zFjPsTBh8HcXd81yYfHoCSQKmkccbl0zVuBE1UTVti7nJi2dXLV0fHj192K94lFlJ96nAsnsuX-lcXo5coxGrFBQtzN5NWbwyk6bDdd6AvpXzjwBHSPsH97JFv8QifbEbTkp6mI8fQw_K0DD4dMR6xGdnJ1HIUewm3oxoZwhA')"></div>
+<div class="absolute top-4 left-4 bg-primary-container text-on-primary px-3 py-1 rounded text-label-sm font-label-sm tracking-wide">
+              Konsultan Ibadah Keluarga
+            </div>
+</div>
+<div class="p-6 flex flex-col flex-1 justify-between">
+<div>
+<h3 class="font-title-lg text-title-lg text-primary mb-1">Ustadz Dr. H. Salman Arifin</h3>
+<p class="font-label-md text-label-md text-secondary mb-4">Dosen Pascasarjana Studi Islam</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Spesialis pembinaan ruhani jamaah keluarga dan lansia, memastikan tiap tahapan perjalanan diiringi refleksi tazkiyatun nafs yang membekas di kalbu.
+              </p>
+</div>
+<div class="mt-6 pt-4 flex items-center gap-2 text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[18px] text-primary">history_edu</span>
+<span>Penulis Buku Panduan Haji &amp; Umrah</span>
+</div>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col group transition-all duration-300 hover:shadow-md">
+<div class="relative w-full aspect-[4/5] overflow-hidden bg-surface-container">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="Portrait of a graceful Indonesian female Muslim teacher and guide in her forties wearing an elegant dusty olive green khimar hijab, gentle warm reassuring smile, documentary editorial composition with warm soft natural lighting." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCiqZXUkTYcwyuJnDDniZ1jRJF9pml_LUoFFEnZZ9u-7sWBVkWSZlFHVu7EcBQa1eGVAfVmN7pJ2h4ha78PweA0YTSla_sSZWOLfNymtz1QKKBilctqrOIzDWEKmNgZLISaesAhkJ6msN8ugchsOgt22ANLMG-ZU2JJcYrsFbCdU7eraVJaWvGS_NlDc0lPmRYwWZMXU1z4xpIyQ8GdYN80PyUuIZPvs1f6hk-rulSTdctzcarrybNEyA')"></div>
+<div class="absolute top-4 left-4 bg-secondary text-on-secondary px-3 py-1 rounded text-label-sm font-label-sm tracking-wide">
+              Pembimbing Khusus Wanita
+            </div>
+</div>
+<div class="p-6 flex flex-col flex-1 justify-between">
+<div>
+<h3 class="font-title-lg text-title-lg text-primary mb-1">Ustadzah Hj. Maryam Zulaikha</h3>
+<p class="font-label-md text-label-md text-secondary mb-4">Pakar Fiqih Thaharah &amp; Nisa</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                Mendampingi konsultasi fiqih ibadah perempuan—kondisi khusus haid, thaharah, hingga etika ziarah Raudhah bagi para muslimah dengan penuh keleluasaan.
+              </p>
+</div>
+<div class="mt-6 pt-4 flex items-center gap-2 text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[18px] text-primary">support_agent</span>
+<span>Pendampingan Khusus 24 Jam</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Photo Documentary Grid: Kehangatan Perjalanan Jamaah -->
+<section class="w-full py-space-3xl bg-surface-container-low">
+<div class="max-w-[1240px] mx-auto px-6 md:px-12">
+<div class="text-center max-w-2xl mx-auto mb-16">
+<span class="font-label-md text-label-md text-secondary tracking-widest uppercase block mb-2">Momen Nyata</span>
+<h2 class="font-headline-lg text-headline-lg text-primary font-serif mb-4">Dokumentasi Hangat di Setiap Langkah</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Bukan sekadar foto destinasi, melainkan kebersamaan tulus saat saling menguatkan langkah di tanah yang paling dicintai Allah.
+        </p>
+</div>
+<!-- Asymmetric Editorial Photo Gallery -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-stretch">
+<!-- Photo 1: Manasik Jakarta -->
+<div class="md:col-span-7 bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col">
+<div class="relative h-72 md:h-96 w-full">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Candid high quality documentary photo of Indonesian pilgrims gathered during a pre-departure Manasik ritual workshop in a warm carpeted hall in Jakarta, attentively practicing wearing ihram cloth with an experienced teacher guiding them patiently." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDv86iBneoT1xygi0JF74Hy3bnc4rkHihEr6uB9BsA0V1e_Dulbwcc4g4sSfF-Lywt-zoikk6dBzrVdtyd-SMSfMcUQvDbwQdNTYP4ZiiDfCPHO-m1q7KzxQ_6mEHM5oxix7Vu95mT_T6KK47_ovEeOjaiWaMNNc-slGGUcaieKqX224VZewX8ivO8nVcnOBPptKggYEZRvPdogcIW3apccbTFnsSRsjWzLUCI-bvO5CeYtSCeOwXnXTA')"></div>
+</div>
+<div class="p-6">
+<span class="font-label-sm text-label-sm text-secondary tracking-wider uppercase font-semibold">Jakarta · Persiapan Matang</span>
+<h4 class="font-headline-sm text-headline-sm text-primary font-serif mt-1 mb-2">Manasik Intensif Teori &amp; Praktik di Hotel Bintang 5</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Pembekalan komprehensif mulai dari simulasi thawaf, tata cara miqat di atas pesawat, hingga kesiapan stamina kesehatan sebelum keberangkatan.</p>
+</div>
+</div>
+<!-- Photo 2: Haramain High Speed Rail -->
+<div class="md:col-span-5 bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col">
+<div class="relative h-72 md:h-96 w-full">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Interior documentary view of Indonesian family smiling peacefully inside the modern comfortable high speed Haramain Train carriage traveling between Makkah and Madinah, desert landscape blurred softly outside the panoramic train window." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBiYeGi-_Joj0_Uai9nleSY1EdYEelENP0y152LiDUYE6NaN_7EPeofLBV1fvpJwk9EIzPDSvIn_nIfKsZr12FczQcPoUyVnpmJIm5Qe0pPBXQjPvDbGVU8ZWoDym8gcPdbtLdCXaBEGtfRAkCmrjkjDbU9i7ja-eTGku4wf82WDC0rRXVps8rFQeUiZ3oSFho8g36Hbvcu5Vg-6-2iFyLdDAzg6xGVF8Rgi5nhglRVOmfHZq4qv_bq2A')"></div>
+</div>
+<div class="p-6">
+<span class="font-label-sm text-label-sm text-secondary tracking-wider uppercase font-semibold">Makkah - Madinah · Kenyamanan Fisik</span>
+<h4 class="font-headline-sm text-headline-sm text-primary font-serif mt-1 mb-2">Perjalanan Cepat Kereta Haramain</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Hanya 2 jam perjalanan tanpa rasa lelah berlebih, menjaga energi jamaah lansia tetap bugar untuk beribadah.</p>
+</div>
+</div>
+<!-- Photo 3: Nusantara Cuisine in Madinah -->
+<div class="md:col-span-6 bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col">
+<div class="relative h-64 md:h-80 w-full">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Warm candid photo of Indonesian hotel dining room in Madinah where tour team serves warm authentic Indonesian food like rendang, sambal, and fresh soup to elderly pilgrims who are smiling happily together at communal tables." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDiyGX66yGnVUmi-vUYOBnvjMQgKJsbRTYpFRh7OsHLxD7DVL5tstVZHxWqUhnhHGFuQsUDECzqWHOc1gBv4ncGpBNHercacXFYT5SX5DqasMlZIym5Y_AG7ermOip186MNaE6kgM2-uJ_67Zba7Qz_k2JocKnhnj0jm5qCgRSxfTHjZL9MnmvYHEPKN9mXq_gW_9f8OAuVmjyFEqS6dK3MR7mQSWJvmZIsInKUfO6h1uiRa17KdXAeHQ')"></div>
+</div>
+<div class="p-6">
+<span class="font-label-sm text-label-sm text-secondary tracking-wider uppercase font-semibold">Kuliner Nusantara · Cita Rasa Tanah Air</span>
+<h4 class="font-headline-sm text-headline-sm text-primary font-serif mt-1 mb-2">Menu Masakan Indonesia Tiga Kali Sehari</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Selera makan tetap terjaga dengan hidangan nusantara yang dimasak koki berpengalaman agar kondisi fisik jamaah tetap prima.</p>
+</div>
+</div>
+<!-- Photo 4: Quiet contemplation in Haram -->
+<div class="md:col-span-6 bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col">
+<div class="relative h-64 md:h-80 w-full">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Soulful cinematic photo of pilgrims sitting peacefully on marble floor facing the holy Kaaba at dusk, warm lamp reflections shimmering on polished white floor with worshippers engaged in heartfelt du'a prayer." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDD2-Vw0Vr5d8dTE8Gn52KZI5eI_cSf6xzGn3YRHRVxKm1TEFNJEZ90NMmzqNqM4ahunnCq0T5Jg6BZsEbiWOxlmCLkof93ushG_EDyR5xB0Klfdos9uMrwWGiOCA-GbUj4K4ZOc0pHb-9VYMnUnJggK9j6sxN76AORuYdYQzyrNNTaoiaODcCnMnboIMBH3JzL_pmIQ-nUBdAXKytj8nG3D9h2pSuvrze3Kyv6E3ZZ9hn5BW3ujWC8cg')"></div>
+</div>
+<div class="p-6">
+<span class="font-label-sm text-label-sm text-secondary tracking-wider uppercase font-semibold">Tazkiyatun Nafs · Keheningan Ibadah</span>
+<h4 class="font-headline-sm text-headline-sm text-primary font-serif mt-1 mb-2">Waktu Khusyuk Bermunajat Tanpa Tergesa</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Agenda dirancang memberi porsi waktu luang berlimpah bagi jamaah untuk bermunajat pribadi di hadapan Baitullah.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Office Visit & Consultation Section -->
+<section class="w-full py-space-3xl bg-background">
+<div class="max-w-[1240px] mx-auto px-6 md:px-12">
+<div class="bg-primary text-on-primary rounded-xl overflow-hidden shadow-xl">
+<div class="grid grid-cols-1 lg:grid-cols-12">
+<!-- Consultation Details -->
+<div class="lg:col-span-7 p-8 md:p-14 flex flex-col justify-between">
+<div>
+<div class="inline-flex items-center gap-2 px-3 py-1 bg-surface-container-highest/15 rounded text-secondary-fixed font-label-sm text-label-sm uppercase tracking-wider mb-6">
+<span class="material-symbols-outlined text-[16px]">door_front</span>
+                Silaturahmi Langsung
+              </div>
+<h2 class="font-headline-lg text-headline-lg text-on-primary font-serif leading-tight mb-4">
+                Pintu Kantor Kami Selalu Terbuka untuk Anda dan Keluarga
+              </h2>
+<p class="font-body-md text-body-md text-on-primary-container leading-relaxed mb-8">
+                Merencanakan ibadah ke Tanah Suci adalah keputusan agung. Kami mengundang Bapak &amp; Ibu untuk hadir langsung mencicipi teh hangat, berkonsultasi mengenai kondisi fisik anggota keluarga, dan melihat detail fasilitas tanpa desakan komersial.
+              </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8 text-on-primary/90">
+<div class="flex items-start gap-3">
+<div class="w-8 h-8 rounded bg-surface-container-highest/20 flex items-center justify-center shrink-0 mt-1">
+<span class="material-symbols-outlined text-secondary-fixed text-[18px]">location_on</span>
+</div>
+<div>
+<h5 class="font-title-md text-title-md text-on-primary mb-1">Kantor Pusat Jakarta</h5>
+<p class="font-body-sm text-body-sm text-on-primary-container">Jl. TB Simatupang No. 45, Cilandak, Jakarta Selatan 12430</p>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<div class="w-8 h-8 rounded bg-surface-container-highest/20 flex items-center justify-center shrink-0 mt-1">
+<span class="material-symbols-outlined text-secondary-fixed text-[18px]">access_time</span>
+</div>
+<div>
+<h5 class="font-title-md text-title-md text-on-primary mb-1">Waktu Pelayanan</h5>
+<p class="font-body-sm text-body-sm text-on-primary-container">Senin – Sabtu<br/>08.30 – 17.00 WIB</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Quick Action Form Anchor -->
+<div class="flex flex-wrap items-center gap-4 pt-4">
+<a class="inline-flex items-center gap-2 bg-secondary text-on-secondary px-6 py-3 rounded font-label-md text-label-md hover:bg-secondary/90 transition-colors shadow-sm" href="#form-janji-temu" onclick="document.getElementById('visit-form-panel').scrollIntoView({behavior: 'smooth'})">
+<span class="material-symbols-outlined text-[18px]">calendar_today</span>
+<span>Buat Janji Kunjungan Kantor</span>
+</a>
+<a class="inline-flex items-center gap-2 bg-surface-container-highest/20 text-on-primary px-6 py-3 rounded font-label-md text-label-md hover:bg-surface-container-highest/30 transition-colors" href="https://wa.me/6281234567890?text=Assalamu%27alaikum%20SAFA%20TOUR,%20saya%20ingin%20berkonsultasi%20mengenai%20paket%20umrah" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+<span>Tanya Via WhatsApp</span>
+</a>
+</div>
+</div>
+<!-- Interactive Visit Request Form Panel -->
+<div class="lg:col-span-5 bg-surface p-8 md:p-12 text-on-surface flex flex-col justify-center" id="visit-form-panel">
+<h3 class="font-title-lg text-title-lg text-primary mb-2">Formulir Janji Temu</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6">Konsultan haji &amp; umrah kami akan menyiapkan berkas informasi dan menyambut kedatangan Anda.</p>
+<form class="space-y-4" id="consultationForm" onsubmit="handleFormSubmit(event)">
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1">Nama Lengkap</label>
+<input class="w-full h-12 px-4 rounded bg-surface-container-lowest font-body-sm text-body-sm text-on-surface placeholder:text-outline focus:outline-none focus:bg-surface-container-lowest shadow-sm" placeholder="Contoh: H. M. Ridwan" required="" type="text"/>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1">Nomor WhatsApp Aktif</label>
+<input class="w-full h-12 px-4 rounded bg-surface-container-lowest font-body-sm text-body-sm text-on-surface placeholder:text-outline focus:outline-none focus:bg-surface-container-lowest shadow-sm" placeholder="0812xxxxxxxx" required="" type="tel"/>
+</div>
+<div class="grid grid-cols-2 gap-3">
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1">Rencana Tanggal</label>
+<input class="w-full h-12 px-3 rounded bg-surface-container-lowest font-body-sm text-body-sm text-on-surface focus:outline-none shadow-sm" required="" type="date"/>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1">Jumlah Jamaah</label>
+<select class="w-full h-12 px-3 rounded bg-surface-container-lowest font-body-sm text-body-sm text-on-surface focus:outline-none shadow-sm">
+<option>1 - 2 Orang</option>
+<option>3 - 5 Orang (Keluarga)</option>
+<option>&gt; 5 Orang (Rombongan)</option>
+</select>
+</div>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1">Topik Konsultasi Khusus</label>
+<select class="w-full h-12 px-3 rounded bg-surface-container-lowest font-body-sm text-body-sm text-on-surface focus:outline-none shadow-sm">
+<option>Umrah Reguler Bintang 5</option>
+<option>Umrah Ramadhan &amp; Syawal</option>
+<option>Pendampingan Khusus Jamaah Sepuh / Kursi Roda</option>
+<option>Pendaftaran Umrah Group Keluarga Mandiri</option>
+</select>
+</div>
+<button class="w-full h-12 mt-2 bg-primary text-on-primary rounded font-label-md text-label-md hover:bg-primary-container transition-colors shadow-md flex items-center justify-center gap-2" type="submit">
+<span class="material-symbols-outlined text-[18px]">send</span>
+<span>Konfirmasi Janji Kunjungan</span>
+</button>
+</form>
+<div class="hidden mt-4 p-4 bg-primary-fixed text-on-primary-fixed rounded text-center" id="formSuccessMessage">
+<span class="material-symbols-outlined text-[24px] mb-1">task_alt</span>
+<p class="font-title-md text-title-md">Alhamdulillah, Pesan Diterima</p>
+<p class="font-body-sm text-body-sm">Tim representatif Safa Tour akan menghubungi Anda via WhatsApp dalam waktu maksimal 2 jam kerja.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Script for Form feedback -->
+<script>
+    function handleFormSubmit(e) {
+      e.preventDefault();
+      const form = document.getElementById('consultationForm');
+      const success = document.getElementById('formSuccessMessage');
+      if (form && success) {
+        form.classList.add('hidden');
+        success.classList.remove('hidden');
+      }
+    }
+  </script>
+</div></main><footer class="w-full bg-[#f3f4ef] mt-0">
+<div class="max-w-[1240px] mx-auto px-4 md:px-12 pt-12 md:pt-16 pb-8">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-8 pb-10">
+<div class="lg:col-span-4 flex flex-col items-start">
+<div class="flex items-center gap-2 mb-4"><span class="font-bold text-lg text-[#042217]">SAFA TOUR</span></div>
+<p class="text-sm text-[#424844] mb-4 leading-relaxed">Biro perjalanan umrah terpercaya yang mendampingi langkah ibadah Anda menuju Tanah Suci dengan kenyamanan, kejelasan, dan ketenangan hati.</p>
+<div class="inline-flex items-center gap-2 px-3 py-1.5 bg-[#edeee9] rounded text-xs"><span class="material-symbols-outlined text-[16px] text-[#775a19]">verified</span><span>Izin Resmi PPIU Kemenag RI No. 128/2021</span></div>
+</div>
+<div class="lg:col-span-2 flex flex-col">
+<h4 class="font-bold text-[#042217] mb-4">Navigasi</h4>
+<ul class="flex flex-col gap-2 text-sm">
+<li><a class="text-[#424844] hover:text-[#042217]" href="index.html">Beranda</a></li>
+<li><a class="text-[#424844] hover:text-[#042217]" href="paket.html">Paket Umrah</a></li>
+<li><a class="text-[#424844] hover:text-[#042217]" href="detail-paket.html">Detail Paket</a></li>
+<li><a class="text-[#424844] hover:text-[#042217]" href="artikel.html">Artikel &amp; Panduan</a></li>
+<li><a class="text-[#424844] hover:text-[#042217]" href="detail-artikel.html">Detail Artikel</a></li>
+<li><a class="text-[#424844] hover:text-[#042217]" href="tentang.html">Tentang Kami</a></li>
+<li><a class="text-[#424844] hover:text-[#042217]" href="kontak.html#faq">FAQ</a></li>
+<li><a class="text-[#424844] hover:text-[#042217]" href="kontak.html">Kontak</a></li>
+</ul>
+</div>
+<div class="lg:col-span-3 flex flex-col">
+<h4 class="font-bold text-[#042217] mb-4">Paket Populer</h4>
+<ul class="flex flex-col gap-2 text-sm">
+<li><a class="text-[#424844] hover:text-[#042217]" href="detail-paket.html">Umrah Nyaman 12 Hari — Rp 34,9 Jt</a></li>
+<li><a class="text-[#424844] hover:text-[#042217]" href="paket.html">Umrah Hemat 9 Hari — Rp 29,9 Jt</a></li>
+<li><a class="text-[#424844] hover:text-[#042217]" href="paket.html">Umrah Premium 12 Hari — Rp 42,9 Jt</a></li>
+<li><a class="text-[#424844] hover:text-[#042217]" href="artikel.html">Panduan Manasik Gratis (PDF)</a></li>
+</ul>
+</div>
+<div class="lg:col-span-3 flex flex-col">
+<h4 class="font-bold text-[#042217] mb-4">Hubungi Kami</h4>
+<ul class="flex flex-col gap-2 text-sm text-[#424844]">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-[18px]">location_on</span>Jl. TB Simatupang No.45, Jakarta Selatan</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-[18px]">call</span>(021) 7890-1234</li>
+<li><a class="flex items-center gap-2 hover:text-[#042217]" href="https://wa.me/6281234567890" target="_blank" rel="noopener"><span class="material-symbols-outlined text-[18px]">chat</span>+62 812-3456-7890</a></li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-[18px]">schedule</span>Senin–Sabtu 08.30–17.00 WIB</li>
+</ul>
+<a href="https://wa.me/6281234567890?text=Assalamu%27alaikum%20Safa%20Tour" target="_blank" rel="noopener" class="mt-4 inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded bg-[#1b382b] text-white text-sm font-semibold hover:bg-[#042217]"><span class="material-symbols-outlined text-[18px]">chat</span>Konsultasi via WhatsApp</a>
+</div>
+</div>
+<div class="pt-6 border-t border-[#c2c8c2] flex flex-col md:flex-row items-center justify-between gap-2 text-xs text-[#727974]">
+<span>© 2026 Safa Tour Indonesia — PT Safa Bina Insani Tour &amp; Travel. Bersahaja nan Berkelas.</span>
+<span>PPIU No.128/2021 • Terakreditasi A Kemenag</span>
+</div>
+</div>
+</footer>
+<script>
+(function(){
+  var btn=document.getElementById('hamburger-btn');
+  var drawer=document.getElementById('mobile-drawer');
+  var backdrop=document.getElementById('mobile-backdrop');
+  var closeBtn=document.getElementById('drawer-close');
+  function open(){ if(drawer) drawer.classList.add('open'); if(backdrop) backdrop.classList.add('open'); document.body.style.overflow='hidden'; }
+  function close(){ if(drawer) drawer.classList.remove('open'); if(backdrop) backdrop.classList.remove('open'); document.body.style.overflow=''; }
+  if(btn) btn.addEventListener('click', open);
+  if(closeBtn) closeBtn.addEventListener('click', close);
+  if(backdrop) backdrop.addEventListener('click', close);
+  var page=document.body.getAttribute('data-page');
+  if(page){
+    document.querySelectorAll('[data-nav="'+page+'"]').forEach(function(el){ el.classList.add('active'); });
+  }
+})();
+</script>
+</body></html>
